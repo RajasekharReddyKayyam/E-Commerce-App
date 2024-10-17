@@ -1,0 +1,70 @@
+.header {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+    padding: 10px 20px; /* Padding for header */
+    background-color: #232f3e; /* Dark background */
+    color: white; /* Text color */
+  }
+  
+  .logo {
+    font-size: 24px; /* Logo font size */
+    font-weight: bold; /* Bold logo */
+  }
+  
+  .search-bar {
+    display: flex; /* Flexbox for input and button */
+    margin: 0 10px; /* Margin for spacing */
+  }
+  
+  .search-bar input {
+    width: 200px; /* Set a specific width */
+    padding: 5px; /* Reduced padding */
+    border: none; /* No border */
+    border-radius: 4px 0 0 4px; /* Rounded corners */
+    outline: none; /* Remove outline */
+  }
+  
+  .search-bar button {
+    padding: 5px 10px; /* Reduced padding for the button */
+    border: none; /* No border */
+    background-color: #febd69; /* Button color */
+    color: #232f3e; /* Button text color */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 0 4px 4px 0; /* Rounded corners */
+  }
+  
+  .nav {
+    display: flex; /* Flexbox for navigation */
+  }
+  
+  .nav ul {
+    list-style: none; /* No bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav li {
+    margin: 0 15px; /* Space between navigation items */
+  }
+  
+  .cart {
+    font-size: 20px; /* Cart icon size */
+  }
+  
+  .logo a {
+    color: #febd69; /* Desired color for "MyShop" */
+    text-decoration: none; /* No underline */
+  }
+  
+  .nav a {
+    color: white; /* Desired color for navigation links */
+    text-decoration: none; /* Remove underline from all nav links */
+  }
+  
+  .nav a:hover {
+    color: #febd69; /* Hover color for navigation links */
+    text-decoration: none; /* Ensure no underline on hover */
+  }
+  
